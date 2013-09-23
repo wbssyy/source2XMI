@@ -1,0 +1,18 @@
+<?xml version = "1.0"?>
+<config>
+	<address>
+		<inputAddress>D:\2013-7-10 about ast\ast-test0.3.3\src</inputAddress>
+		<outputAddress>D:\2013-7-10 about ast\ast-test0.3.3\result.xml</outputAddress>
+	</address>
+	<class>
+		<parser>
+			<classParser></classParser>	
+			<attributeParser></attributeParser>
+			<methodParser></methodParser>
+		</parser>
+		<xmiWriter>
+			<attributeInfoWriter>xmiio.AttributeWriter</attributeInfoWriter>
+			<methodInfoWriter>xmiio.MethodWriter</methodInfoWriter>
+		</xmiWriter>
+	</class>
+</config>
